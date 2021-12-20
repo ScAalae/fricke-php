@@ -1,0 +1,128 @@
+/* =================================================================
+
+		Basis CSS-Formatierungen
+
+=================================================================== */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+  /* === Schriftfarbe: #59544d; === */
+}
+
+ul {
+	/* === Listenpunkte entfernen === */
+}
+
+p {
+	/* === Schriftgröße: .95em === */
+	/* === Aussenabstand nach unten: 1.8em === */
+}
+
+h2,
+h3,
+a {
+	/* === Schriftfarbe: #1e1404 === */
+}
+
+a {
+	/* === Unterstrich bei allen Links entfernen === */
+}
+
+img {
+	max-width: 100%;
+}
+
+.main-header,
+.row {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1150px;
+}
+
+/* =================================================================
+
+		Layout
+
+=================================================================== */
+
+/* === Navigation === */
+
+.name {
+	/* === Schriftgröße: 1.36em === */
+}
+
+.main-nav {
+	/* === Aussenabstand nach oben: 5px === */
+}
+
+.name a,
+.main-nav a {
+	/* === Text zentriert ausrichten === */
+	display: block;
+	padding: 10px 15px;
+}
+
+.main-nav a {
+	/* === Schriftgröße: .95em === */
+	/* === Schriftfarbe: #0c0802 === */
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	/* === Schriftfarbe: #093a58 === */
+}
+
+/* === Layout Container === */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.banner,
+.main-footer {
+	/* === Text zentriert ausrichten === */
+}
+
+.banner {
+	/* === Schriftfarbe: #fff === */
+	/* === Hintergrundfarbe: #E94253 === */
+	padding: 3.2em 0;
+	/* === Aussenabstand nach unten: 48px === */
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.main-footer {
+	/* === Hintergrundfarbe: #d9e4ea === */
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* === Seitenelemente === */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+.feat-img {
+	border-radius: 5px;
+}
+
+.tagline {
+	font-size: 1.4em;
+}
