@@ -1,0 +1,2 @@
+Bitte erstellen Sie in der Datei "base.css" im Ordner "css" die CSS-Deklarationen nach den
+Anweisungen, die in den Kommentaren enthalten sind.
